@@ -6,4 +6,7 @@ public class TeacherCourse
 {
     public String code;
     public String title;
+    @SerializedName("zkratka")
+    public String zkratka;
+
 }
